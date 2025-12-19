@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+   
+    
+   <div class="base" id="calculator" >
+
+     <div class="menu" id="openHistory">☰</div>
+     <div class="title">calculator</div>
+   
+
+    <div class="blue-glow"></div>
+    <div class="blue"></div>
+    <div class="expression" id="expression">Expression</div>
+    <div class="result" id="result">Result</div>
+
+    <div class="buttons">
+
+        <button class="btn ac"><span>Ac</span></button>
+        <button class="btn back"><span>⌫</span></button>
+        <button class="btn di"><span>/</span></button>
+
+        <button class="btn seven"><span>7</span></button>
+        <button class="btn eight"><span>8</span></button>
+        <button class="btn nine"><span>9</span></button>
+        <button class="btn multi"><span>*</span></button>
+
+        <button class="btn four"><span>4</span></button>
+        <button class="btn five"><span>5</span></button>
+        <button class="btn six"><span>6</span></button>
+        <button class="btn minus"><span>-</span></button>
+
+        <button class="btn one"><span>1</span></button>
+        <button class="btn two"><span>2</span></button>
+        <button class="btn three"><span>3</span></button>
+        <button class="btn plus"><span>+</span></button>
+
+        <button class="btn zero"><span>0</span></button>
+        <button class="btn dot"><span>.</span></button>
+        <button class="btn equals"><span>=</span></button>
+
+    </div>
+  </div>
+    <!-- ================= HISTORY SCREEN ================= -->
+<div class="history-screen" id="historyScreen" >
+
+  <!-- History Header -->
+  <div class="history-header">
+    <button class="history-back" id="backToCalc">←</button>
+    <h2 class="history-title">History</h2>
+    <button class="history-clear" id="clearHistory">Clear</button>
+  </div>
+
+  <!-- History Content -->
+  <div class="history-content" id="historyList">
+
+    <div class="history-item">
+      <p class="history-expression">600249 / 9 + 32</p>
+      <p class="history-result">= 60987</p>
+    </div>
+
+    <div class="history-item">
+      <p class="history-expression">600249 / 9 + 32</p>
+      <p class="history-result">= 60987</p>
+    </div>
+
+    <div class="history-item">
+      <p class="history-expression">600249 / 9 + 32</p>
+      <p class="history-result">= 60987</p>
+    </div>
+
+  </div>
+
+</div>
+<!-- ================= END HISTORY SCREEN ================= -->
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
